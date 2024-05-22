@@ -1,0 +1,10 @@
+/* custom-slick.css */
+
+/* Targeting the default slick arrows */
+
+.slick-prev::before,
+.slick-next::before {
+  color: black; /* Change this to your desired color */
+  font-size: 2rem; /* Adjust the size as needed */
+  z-index: 1;
+}
